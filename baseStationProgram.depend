@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1525157078 source:/home/daniel/jobb/baseStationProgram/main.cpp
+	<iostream>
+	<vector>
+	"include/BaseStation.h"
+	"include/MobileDevice.h"
+	"mainFunctions.h"
+
+1525224274 source:/home/daniel/jobb/baseStationProgram/src/BaseStation.cpp
+	"BaseStation.h"
+	<iostream>
+	"CallTime.h"
+	"Database.h"
+
+1525157182 /home/daniel/jobb/baseStationProgram/include/BaseStation.h
+	<iostream>
+	"CallTime.h"
+	"Database.h"
+	<vector>
+
+1524830298 source:/home/daniel/jobb/baseStationProgram/src/MobileDevice.cpp
+	"MobileDevice.h"
+	<iostream>
+	<string>
+
+1525190656 /home/daniel/jobb/baseStationProgram/include/MobileDevice.h
+	"BaseStation.h"
+	<string>
+
+1525174911 /home/daniel/jobb/baseStationProgram/include/CallTime.h
+	<ctime>
+	<iostream>
+
+1524443798 source:/home/daniel/jobb/baseStationProgram/src/CallTime.cpp
+	"CallTime.h"
+	<iostream>
+	<ctime>
+
+1524821773 /home/daniel/jobb/baseStationProgram/mainFunctions.h
+	<iostream>
+	<vector>
+	<fstream>
+	"MobileDevice.h"
+
+1525157211 /home/daniel/jobb/baseStationProgram/include/Database.h
+	<iostream>
+	<sqlite3.h>
+	<vector>
+
+1525157329 source:/home/daniel/jobb/baseStationProgram/src/Database.cpp
+	"Database.h"
+	<iostream>
+	<sqlite3.h>
+	<cstdio>
+	<string>
+	<debug/string>
+
+1456159408 /usr/include/sqlite3.h
+	<stdarg.h>
+
